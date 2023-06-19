@@ -22,6 +22,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .rightSide {
@@ -40,6 +43,9 @@ body {
 .formDiv {
     padding: 24px;
     background-color: white;
+    box-shadow: 0px 5px 5px -6px grey;
+    margin-bottom: 4px;
+    z-index: 1;
 }
 
 form {
@@ -134,4 +140,18 @@ a {
 }
 .odinLogo {
     max-height: 96px;
+}
+
+.credit {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    align-self: center;
+    margin-top: auto;
+}
+
+.credit a {
+    color: white;
+    text-decoration: underline;
 }
